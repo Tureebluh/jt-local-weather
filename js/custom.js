@@ -26,7 +26,6 @@ function getWeather(){
 			
 			currentTemp = data.main.temp;
 			changeTemp(data.main.temp);
-			
 		}
 	});
 }
