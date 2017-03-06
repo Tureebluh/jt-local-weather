@@ -24,6 +24,7 @@
 			<input type="checkbox" checked id="temp-toggle" data-toggle="toggle" 
 				data-offstyle="info" data-on="&deg;F" data-off="&deg;C">
 			<img id="weather-icon" class="img responsive center-block"></img>
+			<h3 id="weather-description"></h3>
 			<h3 id="timestamp"></h3>			
 			<h3 id="humidity"></h3>
 			<h3 id="wind"></h3>

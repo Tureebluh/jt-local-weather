@@ -23,6 +23,7 @@ function getWeather(){
 		success: function(data) {
 			$("#city-state").text(data.name + ", " + data.sys.country);
 			$("#weather-icon").attr("src", "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
+			$("#weather-description").text(data.weather[0].main);
 			$("#humidity").text("Humidity: " + data.main.humidity + "%");
 			$("#wind").text("Wind: " + Math.round(data.wind.speed * 2.23694)+ "mph");
 			
