@@ -18,7 +18,7 @@
 	
     <body>
         <div class="container text-center">
-			<h1 id="title">Current Weather</h1>
+			<h1 id="title">Local Weather</h1>
 			<h2 id="city-state"></h2>
 			<h3 id="temperature"></h3>
 			<input type="checkbox" checked id="temp-toggle" data-toggle="toggle" 

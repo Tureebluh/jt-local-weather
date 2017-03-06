@@ -1,20 +1,36 @@
 body {
-	
+	background-size: 100vw 100vh;
+	background-repeat: none;
+	background-attachment: fixed;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
 
+h1, h2, h3 {
+	color: white;
+	text-shadow: 0 0 5px black, 0 0 30px #EEEEEE;
+}
 /*==========  Mobile First Method  ==========*/
 
 
 
 /* Extra Small Mobile Devices */ 
 @media only screen and (min-width : 320px) {
-	
+	h1 {
+		margin-top: 25%;
+	}
+	#weather-icon {
+		margin-top: 2%;
+	}
 }
 
 /* Large Mobile Devices */
 @media only screen and (min-width : 425px) {
-	
+	h1 {
+		margin-top: 10%;
+	}
 }
 
 /* Extra-Large Mobile Devices */
@@ -24,12 +40,30 @@ body {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	h1 {
+		font-size: 8vmin;
+		margin-top: 20%;
+	}
+	h2 {
+		font-size: 7vmin;
+	}
+	h3 {
+		font-size: 6vmin;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 1000px){
-	
+	h1 {
+		font-size: 7vmin;
+		margin-top: 15%;
+	}
+	h2 {
+		font-size: 6vmin;
+	}
+	h3 {
+		font-size: 5vmin;
+	}
 }
 
 /* Large Devices, Wide Screens */
